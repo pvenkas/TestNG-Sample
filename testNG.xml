@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+
+    <test name="Functional_Test">
+        <classes>
+            <class name="Functional_Tests" >
+                <methods>
+                    <exclude name="Func_Test3"/>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Regression_Test">
+        <classes>
+            <class name="Regression_Tests">
+                <methods>
+
+                    <exclude name="regressionTest1" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

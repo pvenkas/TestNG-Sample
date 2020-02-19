@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="7" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-02-11T21:04:08 EST" name="TestAll" finished-at="2020-02-11T21:04:14 EST" duration-ms="5252">
+    <groups>
+    </groups>
+    <test started-at="2020-02-11T21:04:08 EST" name="Functional_Test" finished-at="2020-02-11T21:04:09 EST" duration-ms="83">
+      <class name="Functional_Tests">
+        <test-method signature="Func_Test1()[pri:0, instance:Functional_Tests@74235045]" started-at="2020-02-11T21:04:09 EST" name="Func_Test1" finished-at="2020-02-11T21:04:09 EST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Func_Test1 -->
+        <test-method signature="Func_Test2()[pri:0, instance:Functional_Tests@74235045]" started-at="2020-02-11T21:04:09 EST" name="Func_Test2" finished-at="2020-02-11T21:04:09 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Func_Test2 -->
+        <test-method signature="Func_Test4()[pri:0, instance:Functional_Tests@74235045]" started-at="2020-02-11T21:04:09 EST" name="Func_Test4" finished-at="2020-02-11T21:04:09 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Func_Test4 -->
+        <test-method signature="Func_Test5()[pri:0, instance:Functional_Tests@74235045]" started-at="2020-02-11T21:04:09 EST" name="Func_Test5" finished-at="2020-02-11T21:04:09 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Func_Test5 -->
+      </class> <!-- Functional_Tests -->
+    </test> <!-- Functional_Test -->
+    <test started-at="2020-02-11T21:04:14 EST" name="Regression_Test" finished-at="2020-02-11T21:04:14 EST" duration-ms="2">
+      <class name="Regression_Tests">
+        <test-method signature="regressionTest2()[pri:0, instance:Regression_Tests@5b12b668]" started-at="2020-02-11T21:04:14 EST" name="regressionTest2" finished-at="2020-02-11T21:04:14 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regressionTest2 -->
+      </class> <!-- Regression_Tests -->
+    </test> <!-- Regression_Test -->
+  </suite> <!-- TestAll -->
+</testng-results>
