@@ -34,6 +34,12 @@ public class Regression_Tests {
         assert true;
     }
 
+    @Test
+    public void regressionTest3()
+    {
+        assert false;
+    }
+
 //    @AfterMethod
 //    public void aftermethod()
 //    {
